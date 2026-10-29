@@ -6,7 +6,7 @@ repo_name: MervinPraison/meta
 repo_url: https://github.com/MervinPraison/meta
 
 theme:
-  name: material
+  name: !ENV [PRAISONAI_THEME, material]
   palette:
     - scheme: slate
       primary: orange
